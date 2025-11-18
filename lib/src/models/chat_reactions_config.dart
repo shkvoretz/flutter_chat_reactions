@@ -40,7 +40,7 @@ class ChatReactionsConfig {
     this.enableHapticFeedback = true,
     this.enableLongPress = true,
     this.enableDoubleTap = false,
-    this.onSecondaryTapDown = false,
+    this.enableRightClick = false,
     this.maxReactionsToShow = 5,
     this.reactionSize = 25.0,
     this.stackedValue = 4.0,
