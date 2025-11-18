@@ -95,7 +95,7 @@ class ChatMessageWrapper extends StatelessWidget {
           config.enableLongPress ? () => _showReactionsDialog(context) : null,
       onDoubleTap:
           config.enableDoubleTap ? () => _showReactionsDialog(context) : null,
-      onSecondaryTapDown: config.onSecondaryTapDown
+      onSecondaryTapDown: config.enableRightClick
           ? (_) => _showReactionsDialog(context)
           : null,
       child: Hero(
