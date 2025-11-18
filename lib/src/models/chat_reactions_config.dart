@@ -10,7 +10,7 @@ class ChatReactionsConfig {
   final bool showAddReactionButton;
   final bool enableHapticFeedback;
   final bool enableLongPress;
-  final bool onSecondaryTapDown;
+  final bool enableRightClick;
   final bool enableDoubleTap;
   final int maxReactionsToShow;
   final double reactionSize;
