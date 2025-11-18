@@ -125,6 +125,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       enableHapticFeedback: true,
                       maxReactionsToShow: 3,
                       enableDoubleTap: true,
+                      onSecondaryTapDown: true,
                       //customMenuItemBuilder: _customMenuItemBuilder,
                     );
                     return ChatMessageWrapper(
